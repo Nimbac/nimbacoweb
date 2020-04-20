@@ -6,9 +6,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold";
 }
-
+#socials {
+  color: #fff;
+}
+.big-heading {
+  color: #fff;
+}
 p {
   color: #8f8f8f;
+  
 }
 /* Headings */
 center {
@@ -198,7 +204,7 @@ label {
 /* Pricing Section */
 #contact {
   padding: 1;
-  background-image: url("/images/mountain3.jpg");
+  background-image: url("/images/mountain1.jpg");
   color: #fff;
   background-size:cover;
   background-position: center;
