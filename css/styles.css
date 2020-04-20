@@ -113,8 +113,10 @@ label {
 
   background-image: url("/images/mountain3.jpg");
   color: #fff;
+  background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center
 
 
 
@@ -198,6 +200,7 @@ label {
   padding: 1;
   background-image: url("/images/mountain3.jpg");
   color: #fff;
+  background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
 
