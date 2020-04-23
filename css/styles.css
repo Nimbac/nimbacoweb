@@ -6,6 +6,15 @@ body {
   font-family: "Montserrat";
   text-align: center;
 }
+.card-header {
+
+    background-color: #7d95b5;
+    border: none;
+}
+.card {
+  border: none;
+  }
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold";
@@ -41,6 +50,8 @@ label {
     margin-top: 1;
 }
 
+
+
 .jumbotron{
   background-color: #7d95b5;
 
@@ -72,10 +83,15 @@ label {
 
 }
 
+
 /* Containers */
 
 .container-fluid{
   padding: 7% 15%;
+}
+.container-fluid #servicerow{
+  padding: 0% 0% 10%;
+
 }
 #endpage{
   padding: 7% 15%;
@@ -184,7 +200,11 @@ label {
   background-color: #aac4e3;
 }
 #endpage {
-    background-color: #aac4e3;
+    background-image: url("/images/bck1.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+
+
 }
 
 .testimonial-text {
@@ -228,6 +248,34 @@ label {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+#careers {
+  background-image: url("/images/mountain5.jpg");
+  color: #fff;
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center
+
+}
+#careerbtn{
+
+border: none;
+background-color: #aac4e3;
+}
+#careerhead {
+  border: none;
+}
+
+#serviceheader {
+
+  background-color: #7d95b5;
+
+}
+#servicerow {
+
 }
 
 /* CTA Section */
