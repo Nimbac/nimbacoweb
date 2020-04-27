@@ -198,6 +198,10 @@ label {
 
 #testimonials {
   background-color: #aac4e3;
+  padding: 0%;
+}
+#about {
+  padding: 3%;
 }
 #endpage {
     background-image: url("/images/bck1.jpg");
@@ -223,6 +227,7 @@ label {
   background-color: #ef8172;
   padding-bottom: 3%;
 }
+
 
 .press-logo {
   width: 15%;
