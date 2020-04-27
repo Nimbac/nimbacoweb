@@ -213,12 +213,12 @@ label {
   padding: 0%;
 }
 #about {
-  padding: 3%;
+  padding: 4% 0% 0% 0%;
 }
 #endpage {
     background-image: url("/images/bck1.jpg");
     background-size:cover;
-    background-attachment: fixed;
+    background-attachment: relative;
 
 
 }
@@ -228,7 +228,12 @@ label {
   line-height: 1.5;
 }
 
+.carousel-item {
+  position: relative;
+}
+
 .testimonial-image {
+
   width: 10%;
   border-radius: 100%;
   margin: 20px;
