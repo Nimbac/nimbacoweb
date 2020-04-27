@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .big-heading {
   color: #fff;
+
 }
 
 a{
@@ -89,11 +90,21 @@ label {
 .container-fluid{
   padding: 7% 15%;
 }
+.container-fluid #socials1{
+  padding: 10% 0%;
+}
 .container-fluid #servicerow{
+  padding: 10% 0% 10%;
+}
+.container-fluid #careers{
   padding: 0% 0% 10%;
-
+}
 }
 #endpage{
+  padding: 7% 15%;
+
+}
+#careercards {
   padding: 7% 15%;
 }
 
@@ -157,6 +168,7 @@ label {
 #footer {
   padding: 1;
 }
+
 
 #title .container-fluid {
   padding: 4% 15% 7%;
@@ -227,7 +239,6 @@ label {
   background-color: #ef8172;
   padding-bottom: 3%;
 }
-
 
 .press-logo {
   width: 15%;
