@@ -3,7 +3,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Montserrat";
+  font-family: 'Fredoka One', cursive;
   text-align: center;
 }
 .card-header {
@@ -17,13 +17,13 @@ body {
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat-Bold";
+  font-family: 'Fredoka One', cursive;
 }
 #socials {
   color: #fff;
 }
 .big-heading {
-  color: #fff;
+  color: #fff
 
 }
 
@@ -32,6 +32,7 @@ a{
 }
 p {
   color: #8f8f8f;
+  
 
 }
 /* Headings */
@@ -72,7 +73,7 @@ label {
 }
 
 .big-heading {
-  font-family: "Montserrat-Black";
+  font-family: 'Fredoka One', cursive;
   font-size: 3.5rem;
   line-height: 1.5;
 
@@ -93,17 +94,23 @@ label {
 .container-fluid #socials1{
   padding: 10% 0%;
 }
-.container-fluid #servicerow{
+.container-fluid #servicelist{
   padding: 10% 0% 10%;
 }
 .container-fluid #careers{
   padding: 0% 0% 10%;
 }
-}
-#endpage{
-  padding: 7% 15%;
 
+.carousel-item {
+height: 500px;
+overflow-y: auto;
+overflow-x: hidden;
+width: 100%;
 }
+#carousel_text {
+  color:#8f8f8f;
+}
+
 #careercards {
   padding: 7% 15%;
 }
@@ -216,9 +223,10 @@ label {
   padding: 4% 0% 0% 0%;
 }
 #endpage {
-    background-image: url("/images/bck1.jpg");
+    background-color: #aac4e3;
     background-size:cover;
     background-attachment: relative;
+    padding: 3% 15%;
 
 
 }
@@ -229,7 +237,7 @@ label {
 }
 
 .carousel-item {
-  position: relative;
+  position: center;
 }
 
 .testimonial-image {
