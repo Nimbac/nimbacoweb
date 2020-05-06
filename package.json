@@ -1,0 +1,19 @@
+{
+  "name": "nimbacoweb",
+  "version": "1.0.0",
+  "description": "Nimbaco front end development",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nimbac/nimbacoweb.git"
+  },
+  "author": "Tadhg Lurlay Cullen Lurlay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nimbac/nimbacoweb/issues"
+  },
+  "homepage": "https://github.com/Nimbac/nimbacoweb#readme"
+}
