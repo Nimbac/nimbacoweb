@@ -6,13 +6,24 @@ body {
 }
 
 #home{
-  background-image: url("/images/mountain5.jpg");
+  background-image: url("/images/mountain1.jpg");
   color: #fff;
   background-size:cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center
+  
+}
+#contactus{
+  background-image: url("/images/mountain3.jpg");
+  color: #fff;
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center
+  
 }
 
 /* header */
