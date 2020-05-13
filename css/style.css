@@ -163,6 +163,32 @@ header {
 }
 /* end of mission */
 
+#whoweare {
+  background-image: url(../images/mountain3.jpg);
+  color: #fff;
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center
+}
+
+#card1 {
+  background-color: hsla(207, 92%, 10%, 0.15);
+}
+
+#card2 {
+  background-color: hsla(207, 92%, 10%, 0.25);
+}
+
+#card3 {
+  background-color: hsla(207, 92%, 10%, 0.25);
+}
+
+#card4 {
+  background-color: hsla(207, 92%, 10%, 0.25);
+}
+
 /* collection */
 .card-shadow {
   box-shadow: 5px 8px 20px #444;
