@@ -4,8 +4,9 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
 #home{
-  background-image: url("/images/mountain3.jpg");
+  background-image: url("/images/mountain5.jpg");
   color: #fff;
   background-size:cover;
   background-position: center;
@@ -18,7 +19,6 @@ body {
 
 header {
   height: 100vh;
-  background-: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .5)), url(../images/mountain1.jpg) no-repeat center center /cover;
 }
 
 /* navbar */
