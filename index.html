@@ -67,7 +67,7 @@
     
      <!-- who are we / about us -->
      <section class="bg-light p-5" id="whoweare">
-        <div class="container-fluid">
+        <div class="container-fluid"style="height: 100vh">
             <!-- title -->
             <div class="row">
                 <div class="col text-center mb-3">
@@ -108,7 +108,7 @@
 
      <!-- What do we do section -->
      <section class="p-5" id="whatdowedo">
-        <div class="container-fluid">
+        <div class="container-fluid"style="height: 100vh">
             <!-- title -->
             <div class="row">
                 <div class="col text-center mb-3">
@@ -120,7 +120,7 @@
                         Our development team is the best in the industry.</p>
                 </div>
             </div>
-            <div class="container-fluid"></div>
+            <div class="container-fluid">
                 <h2 class="text-warning display-4 text-center">Sevices Offered</h2>
 
             </div>
@@ -262,22 +262,44 @@
                         <p>Stay Connected</p>
                     </div>
                     <form class="text-muted">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="text" class="form-control" id="email">
-                        </div>
+                        <label>
+                            Name:
+                          <div class="form-row">
+                            <div class="col-6">
+                              <input type="text" class="form-control" placeholder="First name">
+                            </div>
+                            <div class="col-6">
+                              <input type="text" class="form-control" placeholder="Last name">
+                            </div>
+                          </div>
+                        </label>
+                        <label>
+                            Contact Information:
+                          <div class="form-row">
+                            <div class="col-8">
+                              <input type="text" class="form-control" placeholder="Email Address">
+                            </div>
+                            <div class="col-4">
+                              <input type="text" class="form-control" placeholder="Phone #">
+                            </div>
+                          </div>
+                        </label>
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea class="form-control" id="message" rows="3"></textarea>
+                            <textarea class="form-control" id="message" rows="3"placeholder="Message"></textarea>
                         </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                              Agree to recieve promotional content
+                            </label>
+                          </div>
                         <button class="btn btn-outline-warning btn-block" type="submit">Submit Question</button>
                     </form>
                 </div>
             </div>
+             <!-- 4. Name input -->
+
         </div>
      </section>
      <!-- end of contact -->
