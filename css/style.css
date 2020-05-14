@@ -43,6 +43,9 @@ body {
   background-repeat: no-repeat;
   background-position: center
 }
+#team{
+  background-color: #aac4e3;
+}
 
 #card1 {
   background-color: hsla(207, 92%, 10%, 0.15);
