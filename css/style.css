@@ -15,6 +15,15 @@ body {
   background-position: center
   
 }
+#whoweare {
+  background-color: #aac4e3;
+  color: #aac4e3;
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center
+}
 #contactus{
   background-image: url("/images/mountain3.jpg");
   color: #fff;
@@ -26,9 +35,34 @@ body {
   
 }
 #whatdowedo {
-  background-color: #aac4e3;
+  background-image: url(../images/mountain3.jpg);
+  color: #fff;
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center
 }
 
+#card1 {
+  background-color: hsla(207, 92%, 10%, 0.15);
+}
+
+#card2 {
+  background-color: hsla(207, 92%, 10%, 0.25);
+}
+
+#card3 {
+  background-color: hsla(207, 92%, 10%, 0.25);
+}
+
+#card4 {
+  background-color: hsla(207, 92%, 10%, 0.25);
+}
+
+#card5 {
+  background-color: hsla(207, 92%, 10%, 0.25);
+}
 /* header */
 
 header {
@@ -96,14 +130,14 @@ header {
   width: 80%;
 }
 
-#head1 {
+h1 {
   animation-name: anim;
   animation-duration: 2s;
   animation-delay: .5s;
   animation-fill-mode: backwards;
 }
 
-#head2 {
+h2 {
   animation-name: anim2;
   animation-duration: 2s;
   animation-delay: .5s;
@@ -180,35 +214,6 @@ header {
 }
 /* end of mission */
 
-#whatdowedo {
-  background-image: url(../images/mountain3.jpg);
-  color: #fff;
-  background-size:cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center
-}
-
-#card1 {
-  background-color: hsla(207, 92%, 10%, 0.15);
-}
-
-#card2 {
-  background-color: hsla(207, 92%, 10%, 0.25);
-}
-
-#card3 {
-  background-color: hsla(207, 92%, 10%, 0.25);
-}
-
-#card4 {
-  background-color: hsla(207, 92%, 10%, 0.25);
-}
-
-#card5 {
-  background-color: hsla(207, 92%, 10%, 0.25);
-}
 
 /* collection */
 .card-shadow {
@@ -405,31 +410,3 @@ header {
   text-decoration: none;
 }
 /* end of footer */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
