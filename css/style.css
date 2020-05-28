@@ -25,8 +25,8 @@ body {
   background-position: center
 }
 #contactus{
-  background-image: url("/images/mountain3.jpg");
-  color: #fff;
+  background-color: #aac4e3;
+  color: #aac4e3;
   background-size:cover;
   background-position: center;
   background-attachment: fixed;
