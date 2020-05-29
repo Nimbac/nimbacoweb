@@ -133,14 +133,14 @@ header {
   width: 80%;
 }
 
-h1 {
+#head1 {
   animation-name: anim;
   animation-duration: 2s;
   animation-delay: .5s;
   animation-fill-mode: backwards;
 }
 
-h2 {
+#head2 {
   animation-name: anim2;
   animation-duration: 2s;
   animation-delay: .5s;
